@@ -1,0 +1,7 @@
+Banco - Colegio
+
+Curso (cod_Curso(PK), Nome, Tipo)
+Aluno (Cod_Aluno, Matricula, Nome, Endereco, Tel)
+Turma (Cod_Turma, Cod_Aluno(FK), Cod_Disc(FK), Cod_Curso(FK), Data_Ini)
+Disciplina (Cod_Disc(PK), Ementa, Cont_Prog, Cod_Prof(FK))
+Professor (Cod_Prof(PK), Nome, Especialidade)
